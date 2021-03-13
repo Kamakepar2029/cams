@@ -1,0 +1,35 @@
+<html>
+<body>
+<video class="vid vid3" src="cam3.mp4" autoplay="" loop>
+<source src="cam3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+<video class="vid vid2" src="cam2.mp4" autoplay loop>
+<source src="cam2.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+<video class="vid vid3" src="cam1.mp4" autoplay loop>
+<source src="cam1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+<video class="vid vid4" src="cam4.mp4" autoplay loop>
+<source src="cam4.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+</video>
+<style>
+@keyframes startbeach {
+  from{
+    width:100%;
+    transition:2s;
+  }
+  to{
+    width:630px;
+    transition:2s;
+  }
+}
+body{
+background:black;
+}
+.vid{
+width:630px;
+  animation: 5s startbeach ease-in-out;
+}
+</style>
+</body>
+</html>
